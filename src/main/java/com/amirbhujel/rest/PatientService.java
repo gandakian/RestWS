@@ -13,7 +13,7 @@ import javax.ws.rs.core.Response;
 public interface PatientService {
 
 	@GET
-	@Path("/patients/{id}")
+	@Path("/patients/{id}/")
 	Patient getPatient(@PathParam("id") String id);
 
 	@PUT
@@ -21,11 +21,11 @@ public interface PatientService {
 	Response updatePatient(Patient patient);
 
 	@POST
-	@Path("/patients")
+	@Path("/patients/")
 	Response addPatient(Patient patient);
 
 	@DELETE
-	@Path("/patients/{id}")
+	@Path("/patients/{id}/")
 	Response deletePatients(@PathParam("id") String id);
 
 	Prescription getPrescription(String prescriptionId);
