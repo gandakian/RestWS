@@ -38,7 +38,7 @@ public class PatientServiceImpl implements PatientService {
 
 	public Patient getPatient(String id) {
 		
-		System.out.println("... Invoking getPatient, patient name is :" + id);
+		System.out.println("... Invoking getPatient, patient Id is :" + id);
 
 		Long patientid = Long.parseLong(id);
 		Patient patient = patients.get(patientid);
