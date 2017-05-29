@@ -1,5 +1,5 @@
-com/bharaththippireddy/trainings/jaxrs/Patient.class
-com/bharaththippireddy/trainings/jaxrs/PatientServiceImpl.class
-com/bharaththippireddy/trainings/jaxrs/Prescription.class
-com/bharaththippireddy/trainings/jaxrs/PatientService.class
-com/bharaththippireddy/trainings/jaxrs/Medicine.class
+com/amirbhujel/rest/Medicine.class
+com/amirbhujel/rest/PatientService.class
+com/amirbhujel/rest/Prescription.class
+com/amirbhujel/rest/Patient.class
+com/amirbhujel/rest/PatientServiceImpl.class

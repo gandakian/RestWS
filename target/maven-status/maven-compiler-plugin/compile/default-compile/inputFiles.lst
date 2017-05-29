@@ -1,5 +1,5 @@
-/Users/amirbhujel/Documents/SpringSTS/EclipseWorkspace/restws/src/main/java/com/bharaththippireddy/trainings/jaxrs/PatientServiceImpl.java
-/Users/amirbhujel/Documents/SpringSTS/EclipseWorkspace/restws/src/main/java/com/bharaththippireddy/trainings/jaxrs/PatientService.java
-/Users/amirbhujel/Documents/SpringSTS/EclipseWorkspace/restws/src/main/java/com/bharaththippireddy/trainings/jaxrs/Patient.java
-/Users/amirbhujel/Documents/SpringSTS/EclipseWorkspace/restws/src/main/java/com/bharaththippireddy/trainings/jaxrs/Medicine.java
-/Users/amirbhujel/Documents/SpringSTS/EclipseWorkspace/restws/src/main/java/com/bharaththippireddy/trainings/jaxrs/Prescription.java
+/Users/amirbhujel/Documents/SpringSTS/EclipseWorkspace/RestWS/src/main/java/com/amirbhujel/rest/Prescription.java
+/Users/amirbhujel/Documents/SpringSTS/EclipseWorkspace/RestWS/src/main/java/com/amirbhujel/rest/Patient.java
+/Users/amirbhujel/Documents/SpringSTS/EclipseWorkspace/RestWS/src/main/java/com/amirbhujel/rest/Medicine.java
+/Users/amirbhujel/Documents/SpringSTS/EclipseWorkspace/RestWS/src/main/java/com/amirbhujel/rest/PatientServiceImpl.java
+/Users/amirbhujel/Documents/SpringSTS/EclipseWorkspace/RestWS/src/main/java/com/amirbhujel/rest/PatientService.java
