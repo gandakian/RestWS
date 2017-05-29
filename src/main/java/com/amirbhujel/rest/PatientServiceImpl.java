@@ -84,7 +84,10 @@ public class PatientServiceImpl implements PatientService {
 	}
 
 	public Prescription getPrescription(String prescriptionId) {
+		
+		Long id = Long.parseLong(prescriptionId);
+		Prescription prescription = prescriptions.get(id);
 
-		return null;
+		return prescription;
 	}
 }

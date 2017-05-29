@@ -3,6 +3,9 @@ package com.amirbhujel.rest;
 import java.util.HashMap;
 import java.util.Map;
 
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
 import javax.xml.bind.annotation.XmlRootElement;
 
 @XmlRootElement(name="Prescription")
@@ -31,7 +34,9 @@ public class Prescription {
 		this.description = description;
 	}
 
-	public Medicine getMedicine(int medicineid) {
+	@GET
+	@Path("/medicines/{id}/")
+	public Medicine getMedicine(@PathParam("id") int medicineid) {
 		System.out.println("----invoking getMedicine with id: " + medicineid);
 		Medicine medicine = prescriptions.get(new Long(medicineid));
 		return medicine;
