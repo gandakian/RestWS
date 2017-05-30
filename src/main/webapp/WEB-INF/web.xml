@@ -19,6 +19,7 @@
 		<session-timeout>60</session-timeout>
 	</session-config>
 
+	<!-- Basic Authentication -->
 	<security-constraint>
 		<web-resource-collection>
 			<web-resource-name>
